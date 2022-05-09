@@ -1,0 +1,57 @@
+.header , .footer{
+    background-color: rgba(39, 0, 125, 0.79);
+    padding: 2%;
+    
+}
+
+.header , .footer h1{
+    align-items: center;
+    color: white;
+}
+
+.col{
+    float: left;
+    padding: 10px 5px 10px 0;
+}
+
+.links{
+    width: 25%;
+    
+
+}
+.links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.links ul li{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 8px;
+    background-color: lightcoral;
+}
+.links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links ul li:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+.content{
+    width: 70%;
+}
+.content h1{
+    text-align: center;
+}
+.content p{
+    font-size: 20px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
